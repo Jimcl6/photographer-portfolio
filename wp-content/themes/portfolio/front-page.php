@@ -4,7 +4,7 @@
             <div class="hero-content">
                 <h1>Capturing Life's Most Precious Moments</h1>
                 <p>Award-winning photographer specializing in portraits, weddings, and fine art photography</p>
-                <a href="gallery.html" class="btn btn-primary">View My Work</a>
+                <a href="<?= site_url('/gallery');?>" class="btn btn-primary">View My Work</a>
             </div>
             <div class="hero-image">
                 <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Featured Photography">
@@ -99,7 +99,7 @@
             <div class="container">
                 <h2>Ready to Create Something Beautiful?</h2>
                 <p>Let's discuss your photography needs and bring your vision to life</p>
-                <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+                <a href="<?= site_url('/contact-us')?>" class="btn btn-primary">Get In Touch</a>
             </div>
         </section>
     </main>
